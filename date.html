@@ -20,69 +20,44 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+      <a class="navbar-brand" href="index.html"><img src="../assets/images/logo.png" alt="logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse iten" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link iten text-white" href="#">Nosotros<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link iten text-white" href="index.html">Nosotros<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link iten text-white" href="#">Trabajos</a>
           <a class="nav-item nav-link iten text-white" href="#">Blog</a>
-          <a class="nav-item nav-link iten text-white" href="date.html">Horas</a>
+          <a class="nav-item nav-link iten text-white" href="#">Horas</a>
           <a class="nav-item nav-link iten text-white" href="#">Contacto</a>
         </div>
       </div>
     </nav>
+<div id="Calendary" class="mes">
 
-    <header class ="header">
-      <h1>5 formas de cuidar</h1><h1> tu corte de cabello</h1>
-    </header>
-
+</div>
+   
   <main class="main">
-      <p>
-        12 de abril 2018
-      </p>
-      <p>
-        Desde nuestra juventud nos sentimos atraídos por mejorar nuestra imagen personal, vestimenta, accesorios, el cuidado del cabello y barba.
-     
-        Con el paso del tiempo, nos dimos cuenta que el mundo necesita crear y mejorar la imagen de los hombres, hacerlos más atractivos y exitosos en todo sentido.
-      
-        Así nace todo esto, con ideas, experiencias, estudios y vivencias obtenidas por nuestros viajes y las cuales convergen en la mejor Barbería Clásica.
-      </p>
-      <p>
-        Le Moustache
-      </p>
-      <p>
-        Desde nuestra juventud nos sentimos atraídos por mejorar nuestra imagen personal, vestimenta, accesorios, el cuidado del cabello y barba.
-      
-        Con el paso del tiempo, nos dimos cuenta que el mundo necesita crear y mejorar la imagen de los hombres, hacerlos más atractivos y exitosos en todo sentido.
-      
-        Así nace todo esto, con ideas, experiencias, estudios y vivencias obtenidas por nuestros viajes y las cuales convergen en la mejor Barbería Clásica.
-      </p>
-      <p>
-        Le Moustache
-      </p>
-      <p>
-        Desde nuestra juventud nos sentimos atraídos por mejorar nuestra imagen personal, vestimenta, accesorios, el cuidado del cabello y barba.
-      
-        Con el paso del tiempo, nos dimos cuenta que el mundo necesita crear y mejorar la imagen de los hombres, hacerlos más atractivos y exitosos en todo sentido.
-      
-        Así nace todo esto, con ideas, experiencias, estudios y vivencias obtenidas por nuestros viajes y las cuales convergen en la mejor Barbería Clásica.
-      </p>
-      <p>
-        Le Moustache
-      </p>
-      <p>
-        Desde nuestra juventud nos sentimos atraídos por mejorar nuestra imagen personal, vestimenta, accesorios, el cuidado del cabello y barba.
-      
-        Con el paso del tiempo, nos dimos cuenta que el mundo necesita crear y mejorar la imagen de los hombres, hacerlos más atractivos y exitosos en todo sentido.
-      
-        Así nace todo esto, con ideas, experiencias, estudios y vivencias obtenidas por nuestros viajes y las cuales convergen en la mejor Barbería Clásica.
-      </p>
-      <p>
-        Le Moustache
-      </p>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nombre Completo</label>
+        <input type="Text" class="form-control" id="TextoName" placeholder="Nombre Completo">
+      </div>
+      <div class="form-group">
+        <input class = "form-control" type="date" name="" id="Date">
+      </div>
+      <div class="form-group">
+        <label for="localSelect">Seleccione Local de su preferencia</label>
+        <select multiple class="form-control" id="Select2">
+          <option>Moneda</option>
+          <option>Providencia</option>
+          <option>Las condes</option>
+          <option>Est. Central</option>
+        </select>
+      </div>
+      <button class="btn btn-primary" type="submit" id ="button">Enviar</button>
+    </form>  
   </main>
 
   <section class="botones-1">
@@ -205,11 +180,15 @@
 
     <footer class ="footer">
       <section class="text-center">
-        <img src="images/logo.png" alt="logo-footer" class ="logo-footer">
+        <img src="assets/images/logo.png" alt="logo-footer" class ="logo-footer">
       </section>
     </footer>
 
+  
+    <script src="assets/js/date.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>clear
+    
       <!--jQuery 3.3.1-->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
       q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

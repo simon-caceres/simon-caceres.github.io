@@ -1,0 +1,30 @@
+//main.scss
+//abstract
+@import 'abstract/variable';
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+
+//base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+//layout
+@import 'layout/header';
+@import 'layout/main-section';
+@import 'layout/forms';
+@import 'layout/footer';
+
+//components
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/inputs';
+
+//pages
+
+//themes
+
+
+//vendors
+@import 'vendors/bootstrap_v.4.1/bootstrap'
